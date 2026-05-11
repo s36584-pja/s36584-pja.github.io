@@ -4,14 +4,62 @@
     <meta charset="UTF-8">
    
     <title>Document</title>
+    <style>
+        .text-panel {
+            border: 1px solid blue;
+            border-radius: 5px;
+            margin: 10px;
+            color:rgb(10, 0, 155);
+            font-family: 'Courier New', Courier, monospace
+        }
+        header{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        .centering{
+            text-align: center;
+        }
+        .link-button{
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: blue;
+            color: aliceblue;
+            text-align: none;
+            padding: 5px;
+            margin: 5px;
+        }
+        .button-link{
+            background-color: aliceblue;
+            color: blueviolet;
+            transition-duration: 0.3s;
+        }
+
+    </style>
 </head>
 <body>
     <header style="background-color: blue;"> 
         <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod error harum assumenda illum sapiente? Sequi unde eos praesentium magnam ipsa aspernatur magni adipisci sunt accusamus deserunt harum, aperiam, quae reiciendis!</h1>
     </header>
+    <div class="text-panel">
+    <h2> Lorem ipsum</h2>
     <p>Lorem ipsum </p>
+
+    <div class="centering">
+    <a class="link-button"podstrona.html>Linkeczek</a>
+    <br>
+    <button class="button-link" onclick="location.href='podstrona.html'">guzik do linkeczka</button>
+    </div>
+
+    <div class="centering">
+        
     <img src="" alt="">
     <img src="47e.png">
-    
+    </div>
 </body>
 </html>
